@@ -1,2 +1,2 @@
 Base URL
-https://my-json-server.typicode.com/
+https://my-json-server.typicode.com/sukmadana/quick-db
