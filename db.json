@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "your_username",
+      "avatar": "https://example.com/your_avatar.jpg",
+      "unread_direct_notifications": [
+        {"user_id": 2, "count": 1},
+        {"user_id": 4, "count": 2}
+      ],
+      "unread_group_notifications": [
+        {"group_id": 101, "count": 2},
+        {"group_id": 102, "count": 1}
+      ],
+      "unread_messages": [1002, 2002]
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "avatar": "https://example.com/avatar2.jpg",
+      "unread_direct_notifications": [
+        {"user_id": 1, "count": 1}
+      ],
+      "unread_messages": [1001, 2003]
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "avatar": "https://example.com/avatar3.jpg",
+      "unread_direct_notifications": [],
+      "unread_messages": [1003]
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "avatar": "https://example.com/avatar4.jpg",
+      "unread_direct_notifications": [
+        {"user_id": 1, "count": 2}
+      ],
+      "unread_messages": [1004, 2001]
+    }
+  ],
+  "groups": [
+    {
+      "id": 101,
+      "name": "Group 1",
+      "members": [1, 2, 3]
+    },
+    {
+      "id": 102,
+      "name": "Group 2",
+      "members": [1, 3, 4]
+    }
+  ],
+  "direct_messages": [
+    {
+      "id": 2001,
+      "sender_id": 2,
+      "receiver_id": 1,
+      "content": "Hey, how are you doing?",
+      "timestamp": "2023-12-16T10:00:00"
+    },
+    {
+      "id": 2002,
+      "sender_id": 4,
+      "receiver_id": 1,
+      "content": "Hi there! Got a minute?",
+      "timestamp": "2023-12-16T10:15:00"
+    },
+    {
+      "id": 2003,
+      "sender_id": 1,
+      "receiver_id": 2,
+      "content": "Hey! Doing well, thanks. How about you?",
+      "timestamp": "2023-12-16T10:30:00"
+    }
+  ],
+  "group_messages": [
+    {
+      "id": 1001,
+      "group_id": 101,
+      "sender_id": 2,
+      "content": "Hey, how's it going?",
+      "timestamp": "2023-12-15T14:30:00"
+    },
+    {
+      "id": 1002,
+      "group_id": 101,
+      "sender_id": 3,
+      "content": "Not bad! What about you?",
+      "timestamp": "2023-12-15T14:35:00"
+    },
+    {
+      "id": 1003,
+      "group_id": 102,
+      "sender_id": 4,
+      "content": "Hello everyone!",
+      "timestamp": "2023-12-15T15:00:00"
+    },
+    {
+      "id": 1004,
+      "group_id": 101,
+      "sender_id": 1,
+      "content": "Hey, this is me!",
+      "timestamp": "2023-12-15T15:15:00"
+    }
+  ]
+}
