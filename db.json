@@ -71,6 +71,13 @@
           "sender_id": 4,
           "content": "Hello everyone!",
           "timestamp": "2023-12-15T15:00:00"
+        },
+        {
+          "id": 1005,
+          "group_id": 102,
+          "sender_id": 3,
+          "content": "Hello everyone!",
+          "timestamp": "2023-12-15T15:00:00"
         }
       ]
     }
