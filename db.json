@@ -81,35 +81,5 @@
         }
       ]
     }
-  ],
-  "messages": [
-    {
-      "id": 1001,
-      "group_id": 101,
-      "sender_id": 2,
-      "content": "Hey, how's it going?",
-      "timestamp": "2023-12-15T14:30:00"
-    },
-    {
-      "id": 1002,
-      "group_id": 101,
-      "sender_id": 3,
-      "content": "Not bad! What about you?",
-      "timestamp": "2023-12-15T14:35:00"
-    },
-    {
-      "id": 1003,
-      "group_id": 102,
-      "sender_id": 4,
-      "content": "Hello everyone!",
-      "timestamp": "2023-12-15T15:00:00"
-    },
-    {
-      "id": 1004,
-      "group_id": 101,
-      "sender_id": 1,
-      "content": "Hey, this is me!",
-      "timestamp": "2023-12-15T15:15:00"
-    }
   ]
 }
