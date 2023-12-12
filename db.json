@@ -1,118 +1,118 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "user1",
-      "name": "John Doe",
-      "email": "john.doe@example.com"
-    },
-    {
-      "id": 2,
-      "username": "user2",
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com"
-    },
-    {
-      "id": 3,
-      "username": "user3",
-      "name": "Bob Johnson",
-      "email": "bob.johnson@example.com"
-    },
-    {
-      "id": 4,
-      "username": "user4",
-      "name": "Alice Williams",
-      "email": "alice.williams@example.com"
-    },
-    {
-      "id": 5,
-      "username": "user5",
-      "name": "Charlie Brown",
-      "email": "charlie.brown@example.com"
-    }
-  ],
-  "groups": [
-    {
-      "id": 101,
-      "name": "Group 1",
-      "members": [
-        {
-          "id": 1,
-          "username": "user1",
-          "name": "John Doe",
-          "email": "john.doe@example.com"
-        },
-        {
-          "id": 2,
-          "username": "user2",
-          "name": "Jane Smith",
-          "email": "jane.smith@example.com"
-        },
-        {
-          "id": 3,
-          "username": "user3",
-          "name": "Bob Johnson",
-          "email": "bob.johnson@example.com"
-        },
-      ],
-      "messages": [
-        {
-          "id": 1001,
-          "sender_id": 2,
-          "content": "Hey, how's it going?",
-          "timestamp": "2023-12-15T14:30:00"
-        },
-        {
-          "id": 1002,
-          "sender_id": 3,
-          "content": "Not bad! What about you?",
-          "timestamp": "2023-12-15T14:35:00"
-        },
-        {
-          "id": 1004,
-          "sender_id": 1,
-          "content": "Hey, this is me!",
-          "timestamp": "2023-12-15T15:15:00"
-        }
-      ]
-    },
-    {
-      "id": 102,
-      "name": "Group 2",
-      "members": [
-        {
-          "id": 1,
-          "username": "user1",
-          "name": "John Doe",
-          "email": "john.doe@example.com"
-        },
-        {
-          "id": 3,
-          "username": "user3",
-          "name": "Bob Johnson",
-          "email": "bob.johnson@example.com"
-        },
-        {
-          "id": 4,
-          "username": "user4",
-          "name": "Alice Williams",
-          "email": "alice.williams@example.com"
-        },
-      ],
-      "messages": [
-        {
-          "id": 1003,
-          "sender_id": 4,
-          "content": "Hello everyone!",
-          "timestamp": "2023-12-15T15:00:00"
-        },
-        {
-          "id": 1005,
-          "sender_id": 3,
-          "content": "Hello everyone!",
-          "timestamp": "2023-12-15T15:00:00"
-        }
-      ]
-    }
-  ]
+   "users":[
+      {
+         "id":1,
+         "username":"user1",
+         "name":"John Doe",
+         "email":"john.doe@example.com"
+      },
+      {
+         "id":2,
+         "username":"user2",
+         "name":"Jane Smith",
+         "email":"jane.smith@example.com"
+      },
+      {
+         "id":3,
+         "username":"user3",
+         "name":"Bob Johnson",
+         "email":"bob.johnson@example.com"
+      },
+      {
+         "id":4,
+         "username":"user4",
+         "name":"Alice Williams",
+         "email":"alice.williams@example.com"
+      },
+      {
+         "id":5,
+         "username":"user5",
+         "name":"Charlie Brown",
+         "email":"charlie.brown@example.com"
+      }
+   ],
+   "groups":[
+      {
+         "id":101,
+         "name":"Group 1",
+         "members":[
+            {
+               "id":1,
+               "username":"user1",
+               "name":"John Doe",
+               "email":"john.doe@example.com"
+            },
+            {
+               "id":2,
+               "username":"user2",
+               "name":"Jane Smith",
+               "email":"jane.smith@example.com"
+            },
+            {
+               "id":3,
+               "username":"user3",
+               "name":"Bob Johnson",
+               "email":"bob.johnson@example.com"
+            }
+         ],
+         "messages":[
+            {
+               "id":1001,
+               "sender_id":2,
+               "content":"Hey, how's it going?",
+               "timestamp":"2023-12-15T14:30:00"
+            },
+            {
+               "id":1002,
+               "sender_id":3,
+               "content":"Not bad! What about you?",
+               "timestamp":"2023-12-15T14:35:00"
+            },
+            {
+               "id":1004,
+               "sender_id":1,
+               "content":"Hey, this is me!",
+               "timestamp":"2023-12-15T15:15:00"
+            }
+         ]
+      },
+      {
+         "id":102,
+         "name":"Group 2",
+         "members":[
+            {
+               "id":1,
+               "username":"user1",
+               "name":"John Doe",
+               "email":"john.doe@example.com"
+            },
+            {
+               "id":3,
+               "username":"user3",
+               "name":"Bob Johnson",
+               "email":"bob.johnson@example.com"
+            },
+            {
+               "id":4,
+               "username":"user4",
+               "name":"Alice Williams",
+               "email":"alice.williams@example.com"
+            }
+         ],
+         "messages":[
+            {
+               "id":1003,
+               "sender_id":4,
+               "content":"Hello everyone!",
+               "timestamp":"2023-12-15T15:00:00"
+            },
+            {
+               "id":1005,
+               "sender_id":3,
+               "content":"Hello everyone!",
+               "timestamp":"2023-12-15T15:00:00"
+            }
+         ]
+      }
+   ]
 }
