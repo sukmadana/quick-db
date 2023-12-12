@@ -58,19 +58,28 @@
          "messages":[
             {
                "id":1001,
-               "sender_id":2,
+               "sender_id":{
+                  "id":2,
+                  "name":"Jane Smith"
+               },
                "content":"Hey, how's it going?",
                "timestamp":"2023-12-15T14:30:00"
             },
             {
                "id":1002,
-               "sender_id":3,
+               "sender_id":{
+                  "id":3,
+                  "name":"Bob Johnson"
+               },
                "content":"Not bad! What about you?",
                "timestamp":"2023-12-15T14:35:00"
             },
             {
                "id":1004,
-               "sender_id":1,
+               "sender_id":{
+                  "id":1,
+                  "name":"John Doe"
+               },
                "content":"Hey, this is me!",
                "timestamp":"2023-12-15T15:15:00"
             }
@@ -102,13 +111,19 @@
          "messages":[
             {
                "id":1003,
-               "sender_id":4,
+               "sender_id":{
+                  "id":4,
+                  "name":"Alice Williams"
+               },
                "content":"Hello everyone!",
                "timestamp":"2023-12-15T15:00:00"
             },
             {
                "id":1005,
-               "sender_id":3,
+               "sender_id":{
+                  "id":3,
+                  "name":"Bob Johnson"
+               },
                "content":"Hello everyone!",
                "timestamp":"2023-12-15T15:00:00"
             }
